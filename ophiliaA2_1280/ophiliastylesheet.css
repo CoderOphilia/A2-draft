@@ -1,0 +1,136 @@
+/* Student Name: ophilia */
+/* Student ID: 300386351 */
+
+/* Page Body Styles */
+body{
+   margin-left: auto;
+   margin-right: auto; 
+   width: 95%;
+   background-color: black;
+   color: white;
+   line-height: 1;
+}
+
+/* Header styles */
+
+img{
+    width: 100%;
+    height:400px
+}
+
+/* navigation link styles */
+.header {
+    background: linear-gradient(to bottom, black, rgb(42, 70, 42));
+    display: flex;
+    font-size: 20px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+div> ul{
+    text-decoration: none;
+    list-style: none;
+    list-style-image: none;
+}
+
+.column1 li:nth-child(4){
+ padding-top: 20px;
+}
+
+
+.column2 li:nth-child(3){
+    padding-top: 20px;
+}
+   
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(198, 235, 206);
+}
+
+/* Registration form styling */
+#registration{
+    background-color:  rgb(245,245,165);
+    color: black;
+}
+
+#form-title p{
+    margin-top: -15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(111, 204, 57);
+}
+
+/* The form and price styling  */
+main{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.formRow{
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+    
+}
+
+.formRow >*{
+    flex-basis: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* padding-left: 20px; */
+}
+
+
+.main2{
+    background-color: rgb(144, 170, 144);
+} 
+
+input[type="submit"]{
+    background-color: rgb(144, 170, 144) ;
+    color:rgb(245,245,165);
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left:300px
+    
+}
+
+/* Price information */
+
+dl{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px ;
+}
+
+dt{
+    border-bottom: 2px solid white;
+    font-size: 1 em;
+   
+}
+
+dd{
+    margin-bottom:15px;
+    font-size: 0.9em;
+    margin-left: 0;
+}
+
+/* Footer styling */
+footer{
+    clear: left;
+    background-color: rgb(42, 70, 42);
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5em;
+    padding-bottom: 30px;
+}
